@@ -1,0 +1,138 @@
+[
+    {
+        "id": 1,
+        "name": "Phillip J. Fry",
+        "image": "https://theinfosphere.org/images/thumb/0/0d/Fry_promo_2.jpg/450px-Fry_promo_2.jpg",
+        "position": "Delivery Boy",
+        "species":  "Human",
+        "status": true
+    },
+    {
+        "id": 2,
+        "name": "Turanga Leela",
+        "image": "https://theinfosphere.org/images/thumb/4/4e/Leela_promo_2.jpg/450px-Leela_promo_2.jpg",
+        "position": "Captain",
+        "species": "Mutant",
+        "status": true
+    },
+    {
+        "id": 3,
+        "name": "Bender B. Rodríguez",
+        "image": "https://theinfosphere.org/images/thumb/1/14/Bender_promo_2.jpg/500px-Bender_promo_2.jpg",
+        "position": "Worker",
+        "species": "Robot",
+        "status": true
+    },
+    {
+        "id": 4,
+        "name": "Hubert J. Farnsworth",
+        "image": "https://theinfosphere.org/images/thumb/6/66/Farnsworth_promo_2.jpg/450px-Farnsworth_promo_2.jpg",
+        "position": "Owner",
+        "species": "Human",
+        "status": true
+    },
+    {
+        "id": 5,
+        "name": "Amy Wong (Kroker)",
+        "image": "https://theinfosphere.org/images/thumb/f/f4/Amy_promo_2.jpg/450px-Amy_promo_2.jpg",
+        "position": "Graduate Assistant to Professor",
+        "species": "Martian",
+        "status": true
+    },
+    {
+        "id": 6,
+        "name": "Hermes Conrad",
+        "image": "https://theinfosphere.org/images/thumb/4/48/Hermes_promo_2.jpg/450px-Hermes_promo_2.jpg",
+        "position": "Bureaucrat",
+        "species": "Human",
+        "status": true
+    },
+    {
+        "id": 7,
+        "name": "Dr. John A. Zoidberg",
+        "image": "https://theinfosphere.org/images/thumb/a/a2/Zoidberg_promo_2.jpg/450px-Zoidberg_promo_2.jpg",
+        "position": "Staff Doctor",
+        "species": "Decapodian",
+        "status": true
+    },
+    {
+        "id": 8,
+        "name": "Zapp Brannigan",
+        "image": "https://theinfosphere.org/images/thumb/1/15/Zapp_promo_2.jpg/450px-Zapp_promo_2.jpg",
+        "position": "Temp Captain",
+        "species": "Human",
+        "status": false
+    },
+    {
+        "id": 9,
+        "name": "Kif Kroker",
+        "image": "https://theinfosphere.org/images/5/56/Kif_Kroker.jpg",
+        "position": "Temp Delivery Boy",
+        "species": "Amphibiosans",
+        "status": false
+    },
+    {
+        "id": 10,
+        "name": "Lord Nibbler",
+        "image": "https://theinfosphere.org/images/7/7b/Nibbler_promo_2.jpg",
+        "position": "Pet",
+        "species": "Nibblonian",
+        "status": false
+    },
+    {
+        "id": 11,
+        "name": "Cubert J. Farnsworth",
+        "image": "https://theinfosphere.org/images/thumb/6/6e/Cubert_Farnsworth.jpg/450px-Cubert_Farnsworth.jpg",
+        "position": "Owner",
+        "species": "Human/Clone",
+        "status": true
+    },
+    {
+        "id": 12,
+        "name": "Scruffy",
+        "image": "https://theinfosphere.org/images/thumb/9/96/Scruffy_promo.jpg/450px-Scruffy_promo.jpg",
+        "position": "Janitor",
+        "species": "Human",
+        "status": true
+    },
+    {
+        "id": 12,
+        "name": "Flexo",
+        "image": "https://theinfosphere.org/images/thumb/8/83/Flexo.jpg/450px-Flexo.jpg",
+        "position": "Security",
+        "species": "Robot",
+        "status": false
+    },
+    {
+        "id": 12,
+        "name": "Lando Tucker",
+        "image": "https://theinfosphere.org/images/thumb/0/04/Lando_Tucker.png/450px-Lando_Tucker.png",
+        "position": "Captain",
+        "species": "Human",
+        "status": false
+    },
+    {
+        "id": 12,
+        "name": "Steve 'That Guy' Castle",
+        "image": "https://theinfosphere.org/images/thumb/a/a9/That_Guy.png/450px-That_Guy.png",
+        "position": "Owner",
+        "species": "Human",
+        "status": false
+    },
+    {
+        "id": 12,
+        "name": "Lifter",
+        "image": "https://theinfosphere.org/images/thumb/1/17/Lifter.png/450px-Lifter.png",
+        "position": "Worker",
+        "species": "Robot",
+        "status": false
+    },
+    {
+        "id": 12,
+        "name": "Candy",
+        "image": "https://theinfosphere.org/images/thumb/1/1c/Candy.png/450px-Candy.png",
+        "position": "Navigator",
+        "species": "Human",
+        "status": false
+    }
+]

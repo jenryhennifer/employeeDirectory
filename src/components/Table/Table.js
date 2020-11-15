@@ -29,12 +29,7 @@ function Table({ employees }) {
 
   return (
     <div>
-      <div class="input-group input-group-lg">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg">
-            Large
-          </span>
-        </div>
+      <div className="input-group input-group-lg">
         <input
           className="form-control"
           type="text"

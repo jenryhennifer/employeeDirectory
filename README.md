@@ -15,7 +15,21 @@
 
 ## Description
 
-The purpose of this project was to create an employee directory. I decided to use Futurama for sample employees. This app allows you to filter employee information through name, position, status, and species (specifically for the Futurama theme). The App.js imports the informatino from the jumbotron, table, and emmployees files. The EmployeeList is the prop for the tables to reference the data from the JSON file containing all employee information. 
+The purpose of this project was to create an employee directory. I decided to use Futurama for sample employees. This app allows you to filter employee information through name, position, status, and species (specifically for the Futurama theme). The data was created in a JSON file and framed using:
+
+```
+    {
+        "id": 1,
+        "name": "Phillip J. Fry",
+        "image": "https://theinfosphere.org/images/thumb/0/0d/Fry_promo_2.jpg/450px-Fry_promo_2.jpg",
+        "position": "Delivery Boy",
+        "species":  "Human",
+        "status": true
+    },
+```
+
+The App.js imports the informatino from the jumbotron, table, and emmployees files. The EmployeeList is the prop for the tables to reference the data from the JSON file containing all employee information. 
+
 
 ```
   return (
@@ -54,12 +68,17 @@ When the data is sorted it uses a sort function to establish how the data is sor
     : searchEmployee;
 ```
 
+When establishing if the employee is current or former, it will run through a check to establish if the boolean is true or false.
 
+```
+    {employee.status ? (
+        <div className="current">Current</div>
+        ) : (
+        <div className="former">Former</div>
+    )}
+```
 
-
-
-
-This was a first attempt using hooks with React. It was difficult, but successful.
+This was a first attempt using hooks with React. It was difficult, but successful. I need a lot more practice to understand hooks in general. STAY TUNED FOR AN UPDATE!
 
 ## License
 

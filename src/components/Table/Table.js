@@ -11,7 +11,7 @@ function Table({ employees }) {
 
   const searchEmployee = employees.filter((emp) => emp.name.includes(search));
 
-  console.log(searchEmployee)
+  console.log(searchEmployee);
 
   const sortedEmployees = sorted
     ? searchEmployee.concat().sort((a, b) => {
@@ -65,7 +65,13 @@ function Table({ employees }) {
             <td>{employee.name}</td>
             <td>{employee.position}</td>
             <td>{employee.species}</td>
-            <td>{employee.status ? 'Y' : 'N'}</td>
+            <td>
+              {employee.status ? (
+                <div className="current">Current</div>
+              ) : (
+                <div className='former'>Former</div>
+              )}
+            </td>
           </tr>
         ))}
       </table>

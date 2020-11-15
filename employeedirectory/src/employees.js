@@ -1,4 +1,4 @@
-[
+export const employeeInformation = [
     {
         "id": 1,
         "name": "Phillip J. Fry",

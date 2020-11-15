@@ -29,7 +29,12 @@ function Table({ employees }) {
 
   return (
     <div>
-      <div className="md-form mt-0">
+      <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-lg">
+            Large
+          </span>
+        </div>
         <input
           className="form-control"
           type="text"
@@ -69,7 +74,7 @@ function Table({ employees }) {
               {employee.status ? (
                 <div className="current">Current</div>
               ) : (
-                <div className='former'>Former</div>
+                <div className="former">Former</div>
               )}
             </td>
           </tr>

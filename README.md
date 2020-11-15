@@ -1,5 +1,7 @@
 # Employee Directory
 
+![sample](./sample.png)
+
 ## Deployment
 
 [Deployment](https://jenryhennifer.github.io/employeeDirectory/)

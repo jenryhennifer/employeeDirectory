@@ -4,6 +4,7 @@ import './App.css';
 import EmployeeList from "./employees.json";
 import Jumbotron from './components/Jumbotron/Jumbotron';
 import Table from './components/Table/Table'
+import Search from './components/Search/Search'
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <div className="App">
       <Jumbotron />
       <Search />
-      <Table />
+      <Table employees = { EmployeeList } />
     </div>
   );
 }
